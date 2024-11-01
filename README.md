@@ -20,7 +20,7 @@
 Tujuan dari membuat aplikasi ini untuk menyediakan panduan memasak dan memperluas wawasan pengguna
 
 
-## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada storyboard aplikasi RasaRia berdasarkan gambar yang kamu berikan:
+## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada storyboard aplikasi RasaRia:
 
 1). Splash Screen 
 Menampilkan logo aplikasi RasaRia saat aplikasi pertama kali dibuka. Ini berfungsi sebagai layar pembuka yang memberi kesan awal kepada pengguna.
