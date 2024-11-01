@@ -12,3 +12,9 @@
 ![image](https://github.com/user-attachments/assets/7a5dffeb-97df-400f-8b42-ebcf9b404426)
 
 
+![image](https://github.com/user-attachments/assets/9770769b-78f2-4954-a57f-6ed9ec9dde1a)
+
+
+
+## RasaRia
+### Tujuan utama dari membuat aplikasi ini untuk menyediakan panduan memasak dan memperluas wawasan pengguna
