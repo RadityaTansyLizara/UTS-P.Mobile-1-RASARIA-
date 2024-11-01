@@ -17,4 +17,4 @@
 
 
 ## RasaRia
-### Tujuan utama dari membuat aplikasi ini untuk menyediakan panduan memasak dan memperluas wawasan pengguna
+## Tujuan dari membuat aplikasi ini untuk menyediakan panduan memasak dan memperluas wawasan pengguna
