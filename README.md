@@ -38,10 +38,10 @@ RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman
 
 ## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada storyboard aplikasi RasaRia:
 
-##1). Splash Screen = 
-![image](https://github.com/user-attachments/assets/c7a2a4c7-b653-4e80-827f-8675c87a33d2)
+##1). Splash Screen 
+![image](https://github.com/user-attachments/assets/053664b8-014a-4f97-a599-fa611c15d5b2)
 
-Menampilkan logo aplikasi RasaRia saat aplikasi pertama kali dibuka. Ini berfungsi sebagai layar pembuka yang memberi kesan awal kepada pengguna.
+Fungsinya = Menampilkan logo aplikasi RasaRia saat aplikasi pertama kali dibuka. Ini berfungsi sebagai layar pembuka yang memberi kesan awal kepada pengguna.
 
 2).Home Screen = 
 Menampilkan berbagai kategori resep yang tersedia, seperti minuman, makanan ringan, dan lainnya. Pengguna bisa memilih kategori yang mereka inginkan untuk menemukan resep tertentu.
