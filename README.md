@@ -24,10 +24,12 @@ RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman
 
 
 ### STORYBOARD
+
 ![image](https://github.com/user-attachments/assets/7a5dffeb-97df-400f-8b42-ebcf9b404426)
 
 
 ### MOCKUP
+
 ![image](https://github.com/user-attachments/assets/9770769b-78f2-4954-a57f-6ed9ec9dde1a)
 
 
