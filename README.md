@@ -44,17 +44,32 @@ RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman
 
 Fungsinya = Menampilkan logo aplikasi RasaRia saat aplikasi pertama kali dibuka. Ini berfungsi sebagai layar pembuka yang memberi kesan awal kepada pengguna.
 
-2).Home Screen = 
-Menampilkan berbagai kategori resep yang tersedia, seperti minuman, makanan ringan, dan lainnya. Pengguna bisa memilih kategori yang mereka inginkan untuk menemukan resep tertentu.
+## 2).Home Screen 
 
-3). Drinks Menu = 
-Halaman kategori untuk resep minuman. Di sini, pengguna dapat melihat berbagai pilihan resep minuman yang tersedia.
+![image](https://github.com/user-attachments/assets/548d9258-fa3e-43bf-bf9d-b4fe4371d26b)
 
-4). Snacks Menu = 
-Halaman kategori untuk resep cemilan. Sama seperti menu minuman, di sini pengguna bisa menemukan berbagai resep cemilan.
+Fungsinya = Menampilkan berbagai kategori resep yang tersedia, seperti minuman, makanan ringan, dan lainnya. Pengguna bisa memilih kategori yang mereka inginkan untuk menemukan resep tertentu.
 
-5). Recipe Detail = 
-Halaman yang menampilkan detail resep pilihan, lengkap dengan instruksi dan panduan langkah demi langkah untuk memudahkan pengguna dalam membuat resep tersebut.
+## 3). Drinks Menu 
 
-6). Favorite Screen = 
-Halaman yang berfungsi untuk menyimpan resep favorit. Pengguna bisa menyimpan resep yang mereka sukai dan ingin dicoba kembali di lain waktu.
+![image](https://github.com/user-attachments/assets/6a07183f-a807-4143-bff5-8019daa28efd)
+
+Fungsinya = Halaman kategori untuk resep minuman. Di sini, pengguna dapat melihat berbagai pilihan resep minuman yang tersedia.
+
+## 4). Snacks Menu 
+
+![image](https://github.com/user-attachments/assets/7d8125df-e5c0-4c16-ab69-65d3236d42cc)
+
+Fungsinya = Halaman kategori untuk resep cemilan. Sama seperti menu minuman, di sini pengguna bisa menemukan berbagai resep cemilan.
+
+## 5). Recipe Detail 
+
+![image](https://github.com/user-attachments/assets/f8a5b12c-2024-470d-a40a-f71d20612227)
+
+Fungsinya = Halaman yang menampilkan detail resep pilihan, lengkap dengan instruksi dan panduan langkah demi langkah untuk memudahkan pengguna dalam membuat resep tersebut.
+
+## 6). Favorite Screen 
+
+![image](https://github.com/user-attachments/assets/e88751bf-afc6-412b-baeb-50c343f6ace5)
+
+Fugsinya = Halaman yang berfungsi untuk menyimpan resep favorit. Pengguna bisa menyimpan resep yang mereka sukai dan ingin dicoba kembali di lain waktu.
