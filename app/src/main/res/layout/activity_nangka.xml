@@ -1,0 +1,483 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Header section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+
+            <!-- Tombol Kembali -->
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kembali" />
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Makanan Tradisional"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Tombol Simpan -->
+            <ImageView
+                android:id="@+id/tombol_simpan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/simpan" />
+
+            <!-- Tombol Bagikan -->
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="40dp">
+
+            <!-- Gambar Kue Pancake -->
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/nangka"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ded_image"
+                android:layout_marginBottom="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul Kue Pancake -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gudeg"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Waktu Pembuatan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="120 menit"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Bahan-bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Berikut adalah resep Gudeg yang mudah di buat :"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- List Bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahan - bahan :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 1 Gudeg :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="1/2 kg nangka muda, potong-potong"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 gram daging sapi \n(pilihan: empal atau suwir ayam)"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 lembar daun salam"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 batang serai, memarkan"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 liter santan kental"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Air secukupnyal"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garam secukupnya"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gula merah secukupnya"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bagian 2 Krecek (kulit sapi direbus) :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:layout_marginTop="16dp" />
+
+    <!-- Daftar Bahan dengan Bullet Point -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bullet_kuning"
+            android:drawablePadding="8dp"
+            android:text="100 gram krecek, rebus hingga empuk"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 3 Areh (kuah santan) :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="500 ml santan encer"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="1 lembar daun pandan"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/bullet_kuning"
+            android:drawablePadding="8dp"
+            android:text="Garam secukupnya"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 4 Sambal Goreng Krecek :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="100 gram krecek, goreng hingga kering"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="5 cabe merah besar, haluskan"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="3 siung bawang putih, haluskan"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="Garam dan gula secukupnya"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="Minyak untuk menumis"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <!-- Cara Membuat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Membuat :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Langkah Pembuatan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Menyiapkan Bahan Utama :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Bersihkan nangka muda dan potong-potong.Rebus krecek hingga empuk.Siapkan daging sapi atau pilihan daging lainnya."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Membuat Gudeg :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Masak santan kental, nangka muda, daging sapi, daun salam, dan serai hingga mendidih.Tambahkan gula merah dan garam secukupnya.Biarkan hingga santan meresap dan bumbu meresap ke dalam nangka dan daging."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Membuat Areh :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Didihkan santan encer dengan daun pandan dan garam secukupnya."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Membuat Sambal Goreng Krecek :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Tumis cabe merah dan bawang putih halus hingga harum.Masukkan krecek goreng, garam, dan gula. Aduk rata hingga bumbu meresap."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

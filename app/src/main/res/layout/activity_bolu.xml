@@ -1,0 +1,282 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Header section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+
+            <!-- Tombol Kembali -->
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kembali" />
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Cemilan"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Tombol Simpan -->
+            <ImageView
+                android:id="@+id/tombol_simpan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/simpan" />
+
+            <!-- Tombol Bagikan -->
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="40dp">
+
+            <!-- Gambar Kue Pancake -->
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bolu"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ded_image"
+                android:layout_marginBottom="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul Kue Pancake -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bolu Kukus Pandan"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Waktu Pembuatan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45 - 60 menit"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Bahan-bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:text="Berikut adalah resep Bolu Kukus Pandan yang lembut:"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- List Bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahan - bahan :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="250 gram tepung terigu"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 gram gula pasir"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 sendok teh baking powder"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4 butir telur"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150 ml santan kental"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 ml minyak sayur"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 sendok teh emulsifier (SP / TBM)"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 sendok teh pasta vanilla"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sejumput garam"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+        </LinearLayout>
+
+        <!-- Cara Membuat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Membuat :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Cara Membuat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Persiapan Adonan:"
+            android:textSize="16sp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp" />
+
+        <!-- Langkah Pembuatan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kocok telur dan gula pasir hingga mengembang dan berwarna cerah. Masukkan santan kental, minyak sayur, emulsifier, dan pasta vanilla. Aduk rata. Tambahkan tepung terigu, baking powder, dan garam. Aduk kembali hingga adonan tercampur dengan baik dan tidak bergerindil."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Pengukusan:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siapkan loyang bolu kukus yang sudah diolesi margarin atau dialasi kertas roti. Tuangkan adonan ke dalam loyang. Panaskan panci pengukus dengan air di bawahnya hingga mendidih. Letakkan loyang bolu di atas panci pengukus. \nTutup panci dengan rapat. Kukus bolu selama 30-40 menit dengan api sedang hingga matang. Tes dengan tusuk gigi, \njika tusuk gigi keluar bersih berarti bolu \nkukus sudah matang."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

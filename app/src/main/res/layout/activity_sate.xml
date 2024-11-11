@@ -1,0 +1,460 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Header section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+
+            <!-- Tombol Kembali -->
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kembali" />
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Makanan Tradisional"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Tombol Simpan -->
+            <ImageView
+                android:id="@+id/tombol_simpan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/simpan" />
+
+            <!-- Tombol Bagikan -->
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="40dp">
+
+            <!-- Gambar Kue Pancake -->
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sate"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ded_image"
+                android:layout_marginBottom="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul Kue Pancake -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sate Maranggi"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Waktu Pembuatan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 jam"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Bahan-bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Berikut adalah resep Sate Maranggi yang mudah di buat :"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- List Bahan -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian - bahan:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 1 - Bahan Sate :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="500 gram daging sapi, potong dadu"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tusuk sate bambu, rendam dalam air"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 2 - Bumbu Marinasi :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="5 buah cabai merah besar (sesuai \nselera pedas)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="3 buah cabai rawit (sesuai selera pedas)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="5 siung bawang merah"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="3 siung bawang putih"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="2 cm jahe"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="2 cm lengkuas"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="2 lembar daun jeruk"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="Garam secukupnya"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bagian 3 - Bumbu Kacang :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="150 gram kacang tanah, sangrai"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="3 siung bawang putih"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="2 sendok makan petis"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="1 sendok makan kecap manis"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="Air secukupnya"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp"
+                android:text="Gula, garam, dan merica secukupnya"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <!-- Cara Membuat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Membuat :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Langkah Pembuatan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Menyiapkan Bumbu Marinasi :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Haluskan cabai merah, cabai rawit, bawang merah, bawang putih, jahe, lengkuas, dan daun jeruk. Tambahkan garam secukupnya."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. Mengolah Daging :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Campur daging sapi dengan bumbu marinasi yang sudah dihaluskan. Diamkan selama minimal 2 jam agar bumbu meresap."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Menyiapkan Bumbu Kacang :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Haluskan kacang tanah dan bawang putih. Campur dengan petis, kecap manis, air, gula, garam, dan merica. Aduk rata hingga membentuk bumbu kacang."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Menyusun dan Memanggang Sate :"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  Tusukkan potongan daging pada tusuk sate bambu.Panggang sate di atas bara api atau panggangan hingga matang dan berwarna kecoklatan."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

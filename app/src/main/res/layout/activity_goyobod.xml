@@ -1,0 +1,357 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <!-- Header section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:background="@color/kuning"
+            android:orientation="horizontal">
+
+            <!-- Tombol Kembali -->
+            <ImageView
+                android:id="@+id/kembali"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/kembali" />
+
+            <!-- Title Section -->
+            <TextView
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Minuman"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <!-- Tombol Simpan -->
+            <ImageView
+                android:id="@+id/tombol_simpan"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/simpan" />
+
+            <!-- Tombol Bagikan -->
+        </LinearLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="40dp">
+
+            <!-- Gambar Kue Pancake -->
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/goyobod"
+                android:scaleType="centerCrop"
+                android:background="@drawable/ded_image"
+                android:layout_marginBottom="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Judul Kue Pancake -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es Goyobod"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Waktu Pembuatan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30 - 35 menit"
+            android:layout_marginStart="20dp"
+            android:textSize="14sp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Bahan-bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:text="Berikut adalah resep Es Goyobod, minuman \nsegar khas Sunda yang terbuat dari campuran tepung hunkwe dan berbagai bahan segar \nlainnya :"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- List Bahan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bahan - bahan :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <!-- Daftar Bahan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="100 gram tepung hunkwe"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="30dp"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 ml air"
+                android:textSize="16sp"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 gram gula pasir"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/2 sendok teh garam"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1/2 sendok teh vanili bubuk"
+            android:layout_marginStart="30dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:drawableStart="@drawable/bullet_kuning"
+            android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="500 ml santan kental"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300 ml air kelapa muda"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 gram kolang-kaling, rebus dan iris tipis"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 gram alpukat, keruk dagingnya"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 gram kelapa muda, keruk dagingnya"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 gram tape singkong, potong kecil-kecil"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Es serut atau es batu secukupnya"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sirup merah atau sirup cocopandan secukupnya (opsional)"
+                android:layout_marginStart="30dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:drawableStart="@drawable/bullet_kuning"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <!-- Cara Membuat -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Membuat :"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Membuat Goyobod:"
+            android:textSize="16sp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp" />
+
+        <!-- Langkah Pembuatan dengan Bullet Point -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Campurkan tepung hunkwe dengan 500 ml air dalam panci, aduk hingga larut.Tambahkan \ngula pasir, garam, dan vanili bubuk. Masak dengan api kecil sambil terus diaduk hingga adonan mengental dan matang.Tuang adonan hunkwe ke dalam loyang, biarkan dingin hingga \nmengeras. Setelah mengeras, potong-potong sesuai selera."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Menyiapkan Bahan Lain:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:layout_gravity="left"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rebus santan dengan sedikit garam, aduk terus agar tidak pecah, kemudian dinginkan.Siapkan kolang-kaling yang telah direbus dan diiris tipis, daging alpukat, kelapa muda, dan tape singkong."
+                android:textSize="16sp"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Meracik Es Goyobod:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="left"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Siapkan gelas atau mangkuk saji.Masukkan potongan goyobod hunkwe ke dalam gelas.Tambahkan kolang-kaling, alpukat, kelapa muda, dan tape singkong.Tuang air kelapa muda \ndan santan kental ke dalam gelas.Tambahkan es serut atau es batu sesuai selera.Jika suka, tambahkan sirup merah atau sirup cocopandan untuk memberikan rasa manis tambahan."
+            android:textSize="16sp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:drawablePadding="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

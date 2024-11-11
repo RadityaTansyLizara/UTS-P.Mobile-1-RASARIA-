@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/resep"
+        android:label="RasaRia"
+        android:roundIcon="@drawable/resep"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RasaRia"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"/>
+        <activity
+            android:name=".CemilanActivity"/>
+        <activity
+            android:name=".MinumanActivity"/>
+        <activity
+            android:name=".PizzaActivity"/>
+        <activity
+            android:name=".PepesActivity"/>
+        <activity
+            android:name=".KuePancakeActivity" />
+        <activity
+            android:name=".CimolActivity" />
+        <activity
+            android:name=".TahuCrispyActivity" />
+        <activity
+            android:name=".KolakUbiActivity" />
+        <activity
+            android:name=".KueTalamActivity" />
+        <activity
+            android:name=".BoluActivity" />
+        <activity
+            android:name=".TahuGejrotActivity" />
+        <activity
+            android:name=".PiscokActivity" />
+        <activity
+            android:name=".NagaActivity" />
+        <activity
+            android:name=".JamuActivity" />
+        <activity
+            android:name=".JaheActivity" />
+        <activity
+            android:name=".SopbuahActivity" />
+        <activity
+            android:name=".GoyobodActivity" />
+        <activity
+            android:name=".CendolActivity" />
+        <activity
+            android:name=".SelendangActivity" />
+        <activity
+            android:name=".PisangActivity" />
+        <activity
+            android:name=".SpagetiActivity" />
+        <activity
+            android:name=".RamenActivity" />
+        <activity
+            android:name=".KebabActivity" />
+        <activity
+            android:name=".OndeActivity" />
+        <activity
+            android:name=".RotiActivity" />
+        <activity
+            android:name=".MakaroniActivity" />
+        <activity
+            android:name=".TelurActivity" />
+        <activity
+            android:name=".DagingActivity" />
+        <activity
+            android:name=".SateActivity" />
+        <activity
+            android:name=".AyamActivity" />
+        <activity
+            android:name=".AsemActivity" />
+        <activity
+            android:name=".NangkaActivity" />
+        <activity
+            android:name=".TogeActivity" />
+        <activity
+            android:name=".PempeActivity" />
+        <activity
+            android:name=".RendangActivity" />
+        <activity
+            android:name=".KetoprakActivity" />
+        <activity
+            android:name=".CemilanRecyclerViewActivity" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
