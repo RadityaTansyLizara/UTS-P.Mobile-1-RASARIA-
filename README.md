@@ -12,7 +12,15 @@
 
 RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman, masakan tradisional, dan internasional. Dengan panduan resep yang mudah diikuti, RasaRia membantu pengguna menemukan inspirasi memasak dari bahan yang ada di rumah. Antarmuka yang intuitif membuat pengalaman memasak jadi lebih menyenangkan dan praktis.
 
+# Tujuan Aplikasi dibuat:
 
+1. Memudahkan Pengguna dalam Memasak: Menyediakan resep yang mudah diikuti sehingga pengguna, baik pemula maupun berpengalaman, bisa memasak dengan lebih percaya diri dan praktis.
+
+2. Mengenalkan dan Melestarikan Masakan Tradisional: Memberikan akses ke resep masakan tradisional agar generasi muda bisa lebih mengenal dan melestarikan kuliner khas Nusantara.
+
+3. Memberikan Inspirasi Variasi Masakan: Menghadirkan pilihan resep yang beragam, mulai dari cemilan hingga masakan internasional, untuk membantu pengguna menemukan ide-ide baru dan variatif dalam memasak sehari-hari.
+
+   
 ![image](https://github.com/user-attachments/assets/7a5dffeb-97df-400f-8b42-ebcf9b404426)
 
 
