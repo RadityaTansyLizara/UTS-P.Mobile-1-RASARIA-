@@ -39,6 +39,7 @@ RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman
 ## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada storyboard aplikasi RasaRia:
 
 ##1). Splash Screen 
+
 ![image](https://github.com/user-attachments/assets/053664b8-014a-4f97-a599-fa611c15d5b2)
 
 Fungsinya = Menampilkan logo aplikasi RasaRia saat aplikasi pertama kali dibuka. Ini berfungsi sebagai layar pembuka yang memberi kesan awal kepada pengguna.
