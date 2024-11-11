@@ -20,16 +20,16 @@ RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman
 
 3. Memberikan Inspirasi Variasi Masakan: Menghadirkan pilihan resep yang beragam, mulai dari cemilan hingga masakan internasional, untuk membantu pengguna menemukan ide-ide baru dan variatif dalam memasak sehari-hari.
 
-   
+
+STORYBOARD
 ![image](https://github.com/user-attachments/assets/7a5dffeb-97df-400f-8b42-ebcf9b404426)
 
 
+MOCKUP
 ![image](https://github.com/user-attachments/assets/9770769b-78f2-4954-a57f-6ed9ec9dde1a)
 
 
 
-## RasaRia
-Tujuan dari membuat aplikasi ini untuk menyediakan panduan memasak dan memperluas wawasan pengguna
 
 
 ## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada storyboard aplikasi RasaRia:
