@@ -8,6 +8,10 @@
 | *Mata Kuliah*    |     Pemrograman Mobile     |
 | *Dosen Pengampu* |Donny Maulana, S.Kom., M.M.S.I  |
 
+## Project Aplikasi RasaRia!
+
+RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman, masakan tradisional, dan internasional. Dengan panduan resep yang mudah diikuti, RasaRia membantu pengguna menemukan inspirasi memasak dari bahan yang ada di rumah. Antarmuka yang intuitif membuat pengalaman memasak jadi lebih menyenangkan dan praktis.
+
 
 ![image](https://github.com/user-attachments/assets/7a5dffeb-97df-400f-8b42-ebcf9b404426)
 
