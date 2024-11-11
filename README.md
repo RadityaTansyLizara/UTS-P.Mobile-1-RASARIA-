@@ -36,7 +36,7 @@ RasaRia adalah aplikasi resep yang menghadirkan beragam pilihan cemilan, minuman
 
 
 
-## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada storyboard aplikasi RasaRia:
+## Berikut adalah penjelasan singkat tentang fitur-fitur yang ada pada Aplikasi RasaRia:
 
 ## 1). Splash Screen 
 
